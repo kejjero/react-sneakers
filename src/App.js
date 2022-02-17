@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="root">
+    <body className="root">
         <div className="page">
             <header className="header">
                 <div className="header__box-logo">
@@ -10,10 +10,11 @@ function App() {
                         <p className="header__subtitle">Магазин лучших кроссовок</p>
                     </div>
                 </div>
-                .header__box-na
+                <nav className="header__navigation">
+                </nav>
             </header>
         </div>
-    </div>
+    </body>
   );
 }
 
